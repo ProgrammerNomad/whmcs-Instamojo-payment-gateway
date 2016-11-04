@@ -57,7 +57,8 @@ $get_url = $response['longurl'];
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<script src="https://www.ruralserver.com/template/js/jquery.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script type="text/javascript">
 $(document).ready(function () {
     window.setTimeout(function () {
@@ -87,7 +88,6 @@ text-decoration:none;}
 </head>
 <body>
 <div class="main-content">
-  <p><img src="https://www.ruralserver.com/client/templates/six/img/logo.png" height="50" alt="Processing" border="0" /></p>
   <p><b>Please be patient while we are redirecting you to Payment Gateway.</b></p>
   <p><a href="<?=$get_url;?>?embed=form">Click Here</a> if not redirecting </p>
   <p>Do not "close the window" or press "refresh" or "browser back button".</p>
